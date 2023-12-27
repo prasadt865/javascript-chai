@@ -10,7 +10,7 @@ console.log(Math.ceil(2.2));
 
 let arr=new Array(1,2,3);
 console.log(arr);
-console.log(Math.max(...arr));
+console.log(Math.max(...[1,2,3]));
 console.log(Math.min(...arr));
 
 console.log(Math.floor(Math.random()*10));
