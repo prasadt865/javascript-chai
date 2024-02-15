@@ -1,14 +1,12 @@
-let name="prasad"
+const myString = "my name is prasad and i am 30 years old"
 
-console.log(name.charAt(0));
-console.log(name.toUpperCase());
+console.log(myString.substring(0,7))
 
-let age="prasad"
-console.log(age.substring(0,4));
-console.log(age.slice(-3,-1));
+console.log(myString.slice(1,9))
 
-let mane="my name is prasad"
-console.log(mane.split(' '));
-console.log(mane.replace("name","mane"));
-console.log((mane.includes('o')));
+const myUrl="https://google.com/?prasad%20t"
+console.log(myUrl.replace("%20",'-'))
 
+console.log(myString.split(' and '))
+
+console.log(myUrl.includes('google'))

@@ -1,7 +1,7 @@
 const num=10
 
 let value = new Number(10)
-
+console.log(Math)
 console.log(Math.PI);
 console.log(Math.abs(-5));
 console.log(Math.pow(2,3));
